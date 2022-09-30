@@ -1,0 +1,22 @@
+Day 3 Assignment:
+
+Source Code:
+import 'dart:io';
+void main(){
+   var name,age;
+   print('Enter Name & Age : ');
+   name=stdin.readLineSync();
+   age=int.parse(stdin.readLineSync());
+   print(name.runtimeType);
+   print(age.runtimeType);
+   stdout.write('Name : $name | Age : $age');
+}
+
+
+Output:
+Enter Name & Age : 
+Tutor Joe's
+20
+String
+int
+Name : Tutor Joe's | Age : 20
